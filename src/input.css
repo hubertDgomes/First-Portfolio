@@ -1,0 +1,8 @@
+@import "tailwindcss";
+
+@theme {
+  --font-font1: "Roboto", "sans-serif"; 
+  --font-font2: "Inter", "sans-serif"; 
+  --font-font3: "Michroma", "sans-serif"; 
+  --spacing-container: 1250px; 
+}
