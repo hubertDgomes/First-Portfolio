@@ -458,6 +458,11 @@
       display: none;
     }
   }
+  .lg\:w-\[560px\] {
+    @media (width >= 64rem) {
+      width: 560px;
+    }
+  }
 }
 @property --tw-border-style {
   syntax: "*";
