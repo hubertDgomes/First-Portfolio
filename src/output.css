@@ -214,6 +214,18 @@
   .ml-\[10px\] {
     margin-left: 10px;
   }
+  .ml-\[40px\] {
+    margin-left: 40px;
+  }
+  .ml-\[60px\] {
+    margin-left: 60px;
+  }
+  .ml-\[70px\] {
+    margin-left: 70px;
+  }
+  .ml-\[80px\] {
+    margin-left: 80px;
+  }
   .flex {
     display: flex;
   }
@@ -501,6 +513,11 @@
   .lg\:w-\[50\%\] {
     @media (width >= 64rem) {
       width: 50%;
+    }
+  }
+  .lg\:w-\[93px\] {
+    @media (width >= 64rem) {
+      width: 93px;
     }
   }
   .lg\:w-\[560px\] {
