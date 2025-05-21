@@ -187,11 +187,17 @@
   .mb-\[20px\] {
     margin-bottom: 20px;
   }
+  .block {
+    display: block;
+  }
   .flex {
     display: flex;
   }
   .hidden {
     display: none;
+  }
+  .inline {
+    display: inline;
   }
   .inline-block {
     display: inline-block;
@@ -312,6 +318,15 @@
   .pb-\[200px\] {
     padding-bottom: 200px;
   }
+  .text-center {
+    text-align: center;
+  }
+  .text-left {
+    text-align: left;
+  }
+  .text-right {
+    text-align: right;
+  }
   .font-font1 {
     font-family: var(--font-font1);
   }
@@ -382,6 +397,11 @@
       font-size: 69px;
     }
   }
+  .lg\:block {
+    @media (width >= 64rem) {
+      display: block;
+    }
+  }
   .lg\:flex {
     @media (width >= 64rem) {
       display: flex;
@@ -405,6 +425,11 @@
   .lg\:pb-\[70px\] {
     @media (width >= 64rem) {
       padding-bottom: 70px;
+    }
+  }
+  .lg\:text-left {
+    @media (width >= 64rem) {
+      text-align: left;
     }
   }
   .lg\:text-\[40px\] {
